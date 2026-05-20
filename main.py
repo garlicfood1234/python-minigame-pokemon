@@ -116,3 +116,28 @@ while True :
     print("\n============================")
     print(f"HP: {player['hp']} | ATK: {player['atk']} | GOLD: {player['gold']} | POTION: {player['potion']}")
     print("\n============================")
+    print("1. 사냥")
+    # 사냥하러 가볼래 ?
+    print("2. 상점")
+    # 상점에 쳐들어가자 !
+    print("3. 종료")
+    # 왜 종료해 ?
+    # 종료할게 !
+
+    cmd = int(input("선택: "))
+    # 어떤걸 선택할래 ? : 
+
+    if cmd == 1 : 
+        battle()
+        
+    elif cmd == 2 : 
+        shop()
+    
+    elif cmd == 3 : 
+        print("게임 종료")
+        # 게임 종료를 눌럿어 ㅜㅅㅜ
+        break
+    
+    else : 
+        print("잘못된 입력")
+        # 잘못된 입력이라니까여 ?
