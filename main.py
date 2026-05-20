@@ -115,3 +115,4 @@ while True :
     
     print("\n============================")
     print(f"HP: {player['hp']} | ATK: {player['atk']} | GOLD: {player['gold']} | POTION: {player['potion']}")
+    print("\n============================")
