@@ -2,8 +2,8 @@ import random
 
 player = {
     "name": "dksh",
-    "hp": 100,
-    "max-hp": 100,
+    "hp": 500,
+    "max-hp": 500,
     "atk": 15,
     "gold": 0,
     "potion": 2,
