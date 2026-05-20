@@ -111,7 +111,7 @@ while True :
     if player['hp'] <= 0 : 
         print("게임 종료")
         # 게임이 끝낫어 ;ㅁ;
-        return
+        break
     
     print("\n============================")
     print(f"HP: {player['hp']} | ATK: {player['atk']} | GOLD: {player['gold']} | POTION: {player['potion']}")
